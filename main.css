@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* Main Document */
+body {
+	background:#000000;
+	border:0;
+	font-family: Helvetica, sans-serfi;
+	margin:0;	
+	padding:0;
+}
+
+a {
+	color:#62c6ea;
+	text-decoration:none;	
+}
+
+#wrapper {
+	margin:0 auto;
+	overflow: hidden;
+	padding-top:40px;
+	position:relative;
+	width:900px;	
+}
+
+/* Main title */
+#title-wrapper {
+	position: absolute;
+	height:450px;
+	overflow: hidden;
+	width: 900px;	
+	z-index:101;
+}
+
+#title-main {
+	left:0px;
+	position:absolute;
+}
+
+
+#controls {
+	height: 150px;
+	width: 200px;
+	cursor: pointer;
+	right: 100px;
+	position: absolute;
+	top: 150px;
+}
+
+#countdown {
+	background-image:url(images/ready.png);
+	background-repeat:no-repeat;
+	background-position-y:0px;
+	display:none;
+	left:34%;
+	position:absolute;	
+	top:29%;
+	width:356px;
+	height:200px;
+}
+
+#ready,
+#ready-counter {
+	text-align:center;	
+}
+
+#ready {
+	font-size:3em;	
+}
+
+#ready-counter {
+	font-size:5em;	
+}
+
+/** Player Stats **/
+#player {
+	display:none;	
+	font-family: 'Fruktur', cursive;
+	position:absolute;
+	right:0px;
+}
+
+#life {
+	float:left;
+	height:101px;
+	width:107px;
+	background-image:url(images/energy.png);
+	background-repeat:no-repeat;
+	background-position:-5px 0;	
+}
+
+#food-counter {
+	float:left;	
+}
+
+#food-counter-counter {
+	font-size:2em;	
+	text-align:center;
+}
+
+/** Game Over **/
+#gameover {
+	display:none;
+	font-size:4em;
+	position:absolute;
+	text-align:center;
+	width:100%;	
+	top:40%;
+}
+
+#startover {
+	font-size:0.75em;	
+}
+
+/** Level Complete **/
+#level-complete {
+	position:absolute;
+	left:-2000px;
+	top:30%;
+}
+
+/** Level Controls **/
+#levels {
+	display:none;
+	position:absolute;
+	width:900px;
+	height:450px;	
+}
+
+.level-item {
+	pointer:cursor;
+	width:200px;
+	height:200px;	
+}
+
+#level-2 {
+	float: right;
+	margin-right: 125px;	
+}
+
+/** Fill **/
+#fill-wrapper {
+	display:none;
+	width:900px;
+	height:450px;
+	overflow:hidden;
+	position:absolute;
+	z-index:99;	
+}
+
+#fill {
+	margin-top:450px;
+}
+
+/** Story **/
+#story {
+	position:absolute;	
+	z-index:100;
+}
+
+/* Proper Game Workshop */
+canvas {
+	background:white;	
+}
+
+audio {
+	display:none;	
+}
+
+/** End Screen **/
+#victory {
+	position:absolute;
+	top:-450px;
+	-webkit-transition: top 1s;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Walken</title>
+<link href='http://fonts.googleapis.com/css?family=Fruktur' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="main.css" />
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/yepnope.1.5.4-min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+        <!-- Intro Story -->
+       	<div id="story">
+        	<img src="images/story.png" />
+        </div>
+
+        <div id="victory">
+            <img src="images/victory.png" />
+        </div>
+    
+    	<!-- Start Controls -->
+ 		<div id="title-wrapper">
+            <div id="title-main">
+                <img src="images/title.png" />
+            </div>
+            <div id="controls">
+            
+            </div>
+        </div>
+        
+        <!-- Start Countdown -->
+        <div id="countdown">
+        
+        </div>
+        
+        <!-- Game Over -->
+        <div id="gameover">
+        	<div id="messagegameover">Game Over!</div>
+            <div id="startover"><a href="/walken">New Game?</a></div>
+        </div>
+        
+        <!-- Player -->
+        <div id="player">
+        	<div id="food-counter">
+            	<div id="food-counter-label">Foods Eaten: </div>
+                <div id="food-counter-counter">0</div>
+            </div>
+        	<div id="life"></div>
+        </div>
+        
+        <div id="level-complete">
+        	<img src="images/accomplished.png" />
+        </div>
+        
+        <!-- Controls for clicking the map -->
+        <div id="levels">
+        	<div id="level-1" class="level-item"></div>
+            <div id="level-2" class="level-item"></div>
+        </div>
+        
+        
+        <!-- Fill for transitions -->
+        <div id="fill-wrapper">
+        	<div id="fill">
+                <img src="images/water-fill.png" />
+            </div>
+        </div>
+
+        <!-- Main Game -->
+    	<canvas id="c" width="900" height="450">
+       		Canvas does not work on your machine.
+        </canvas>   
+        
+                
+        <!-- Main Music -->
+        <audio id="mainTheme" loop>
+          <source src="sounds/music.wav" type="audio/wav">
+		</audio>
+    </div>
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
