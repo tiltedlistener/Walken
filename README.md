@@ -7,3 +7,5 @@ This is a spoof game based off of Tag Creative Studio's [Newton!](http://apps.mi
 A man leaves his fish behind over the weekend with no food, so the intrepid Walken rolls to find food in the office and confronts his neglectful owner!
 
 Intentionally slapped together to poke fun at a co-worker. 
+
+[Play Now](http://ckplusplus.com/games/walken/)
